@@ -1,1 +1,0 @@
-for /r "%cd%" %%a in (*.exe) do taskkill /f /im "%%~nxa"
